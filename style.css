@@ -10,7 +10,7 @@ body {
         justify-content: center;
         align-items: center;
         min-height: 100vh;
-        background: #3d3232;
+        background: #d3d3d3;
 }
 
 .container{
@@ -24,6 +24,7 @@ body {
     align-items: center;
     cursor: pointer;
     user-select: none;
+    overflow: hidden;
 }
 
 .container::before{
@@ -38,4 +39,12 @@ body {
 .download{
     position: absolute;
     color: #fffefe;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 4em;
+    transition: 0.5s;
+}
+
+.download.start{
+    transform: translateY(160%);
 }
