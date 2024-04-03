@@ -23,4 +23,19 @@ body {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    user-select: none;
+}
+
+.container::before{
+    content: '';
+    position:absolute;
+    inset: 25px;
+    border-radius: 50%;
+    background: #3d3d3d;
+    opacity: 0.9;
+}
+
+.download{
+    position: absolute;
+    color: #fffefe;
 }
