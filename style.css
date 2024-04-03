@@ -48,3 +48,11 @@ body {
 .download.start{
     transform: translateY(160%);
 }
+
+.container #number {
+    position: relative;
+    color: #fffefe;
+    z-index: 100;
+    font-size: 3em;
+    text-align: center;
+}

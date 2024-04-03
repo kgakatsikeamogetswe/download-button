@@ -9,7 +9,7 @@ download.addEventListener('click', function(event){
         degree += 1;
         if(degree > 100){
             clearInterval(interval)
-            number.innerHTML = ''
+            number.innerHTML = '<i class="fa-solid fa-check"></i>'
         }
     })
 })
